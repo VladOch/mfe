@@ -9,8 +9,9 @@
     "install-dashboard": "cd packages/dashboard && npm i",
     "install-marketing": "cd packages/marketing && npm i",
     "install-all": "npm run install-auth && npm run install-container && npm run install-dashboard && npm run install-marketing",
-    "run-marketing":  "cd packages/marketing && npm run start",
-    "start":  "cd packages/container && npm run start"
+    "start:marketing":  "cd packages/marketing && npm run start",
+    "start:auth":  "cd packages/auth && npm run start",
+    "start:container":  "cd packages/container && npm run start"
   },
   "keywords": [],
   "author": "",
