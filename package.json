@@ -11,7 +11,8 @@
     "install-all": "npm run install-auth && npm run install-container && npm run install-dashboard && npm run install-marketing",
     "start:marketing":  "cd packages/marketing && npm run start",
     "start:auth":  "cd packages/auth && npm run start",
-    "start:container":  "cd packages/container && npm run start"
+    "start:container":  "cd packages/container && npm run start",
+    "start:dashboard":  "cd packages/dashboard && npm run start"
   },
   "keywords": [],
   "author": "",
